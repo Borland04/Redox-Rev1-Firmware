@@ -18,10 +18,10 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: redox_left
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: redox_right
     cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_SLEEP_TIMEOUT=10800000
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: settings_reset
